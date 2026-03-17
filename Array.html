@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object in Js </title>
+</head>
+<script>
+    let student={
+        name:"Kartikey",
+        age:20,
+        email:"21kartikey21@gmail.com",
+        isMarried:false,
+        address:{
+        are:"Indirapuram",
+        pincode:201009, 
+        city:"Ghaziabad",
+        state:"Uttar Pradesh"
+        },
+        education:null,
+        branch:"CSE",
+        year:2025,
+        getInfo:function(){
+            return "my branch is" + student.branch + "and year is" + student.year;
+        },
+        courseSubjects:["Data Structures","Electronics","Mathematics"],
+        passOut:false
+    }
+    for(let x in student){
+        console.log(x+":"+student[x]);
+    }
+    //output can only be seen in console after opening inspect element
+    //coderunner doesn't support js inside html
+
+</script>
+</html>
