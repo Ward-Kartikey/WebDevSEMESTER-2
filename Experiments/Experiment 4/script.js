@@ -5,7 +5,7 @@ function calculateMarks() {
   var marksList = "";
 
   for (var i = 1; i <= n; i++) {
-    var mark = parseInt(prompt("Enter marks for subject " + i)) || 0;
+    var mark = parseInt(prompt("Enter marks for subject such that total of maximum marks be 100" + i)) || 0;
     total = total + mark;
     marksList = marksList + "Subject " + i + ": " + mark + "<br>";
   }

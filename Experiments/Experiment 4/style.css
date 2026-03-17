@@ -1,14 +1,28 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 20px;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-box {
+    width: 300px;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 2px solid black;
+    margin: 20px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: burlywood;
 }
 
 label {
-  display: inline-block;
-  width: 80px;
+    display: inline-block;
+    width: 80px;
 }
 
 button {
-  margin-top: 10px;
-  padding: 5px 10px;
+    margin-top: 10px;
+    padding: 5px 10px;
 }
