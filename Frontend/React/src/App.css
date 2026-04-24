@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center;     /* vertical center */
+  height: 100vh;           /* full viewport height */
+}
+
+.box {
+  border: 2px solid rgb(233, 220, 77);
+  width: 500px;
+  height: 500px;
+  background-color: rgb(182, 83, 83);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;     /* centers text inside */
+  font-weight: bold;
+  
+
+}

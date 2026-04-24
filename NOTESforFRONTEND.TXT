@@ -1,0 +1,1 @@
+In src file, files starting with capital letters are components
